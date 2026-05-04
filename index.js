@@ -110,8 +110,8 @@ async function loadSession() {
         console.log(chalk.cyan('[ 🆔️ ] Downloading MEGA.nz session...'));
         
         // Remove "malvin~" prefix if present, otherwise use full SESSION_ID
-        const megaFileId = config.SESSION_ID.startsWith('ZANDILE-MK~') 
-            ? config.SESSION_ID.replace("ZANDILE-MK~", "") 
+        const megaFileId = config.SESSION_ID.startsWith('CYBER PANDA MD~') 
+            ? config.SESSION_ID.replace("CYBER PANDA MD~", "") 
             : config.SESSION_ID;
 
         const filer = File.fromURL(`https://mega.nz/file/${megaFileId}`);

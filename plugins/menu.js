@@ -1,4 +1,3 @@
-/*
 const config = require('../settings');
 const { zandile, commands } = require('../zandile');
 const { runtime } = require('../lib/functions');
@@ -762,4 +761,3 @@ zandile({
         }
     }
 });
-*/

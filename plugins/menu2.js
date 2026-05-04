@@ -6,7 +6,7 @@ const { getPrefix } = require('../lib/prefix');
 const prefix = getPrefix();
 
 zandile({
-  pattern: "menu2",
+  pattern: "menu",
   alias: ["allmenu2"],
   use: '.menu2',
   desc: "Show all bot commands",
